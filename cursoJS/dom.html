@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASSOS COM DOM</title>
+    <style>
+    </style>
+
+</head>
+<body>
+
+<!--
+     <div id="area" >
+        interaja...
+
+    <h1>Somando Valores</h1>
+    <input type="number" name='txtn1' id="txtn1">
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="somar" onclick="somar()" id="botao">
+    <div id="res">RESULTADO</div>
+    </div>
+
+
+    <h1>Sistema de multa</h1>
+    Velocidade do carro<input type="number" name="txtvel" id="txtvel">Km/h
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res"></div>
+ -->   
+<!--
+
+    <script>//função
+        var a = window.document.getElementById('area')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+        
+        function clicar(){
+          a.innerText = 'AMO'
+          a.style.background = 'blue'  
+        }
+        function entrar(){
+            a.innerText = "TE"
+            a.style.background = 'red'
+        }
+        function sair(){
+            a.innerText = "EU"
+            a.style.background = 'purple'
+        }
+    </script>
+    <script>//função somar
+        function somar(){
+            var tn1 = document.getElementById('txtn1')
+            var tn2 = document.getElementById('txtn2')
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var s = n1 + n2
+            res.innerHTML = s
+        }
+    </script>
+    <script>//CONDIÇÃO
+        function calcular(){
+        var txtv = window.document.getElementById('txtvel')
+        var res = window.document.querySelector('div#res')
+        var vel = Number(txtv.value)
+        res.innerHTML = `<p>Sa velocidade atual é ${vel}kml/h<p>`
+        if(vel > 60){
+            res.innerHTML += `<p> Você está <strong>MULTADO<strong> por excesso de velocidade<p>`
+        }
+        res.innerHTML += `<p>Dirija sempre com o cinto<p>`
+     }
+    </script>
+-->
+
+</body>
+</html>
